@@ -1,19 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
-ul{
+header ul{
     display: flex;
     list-style-type: none;
    justify-content: flex-end;
     background-color: lightblue;
    flex-wrap: wrap;
+  
 
 }
-li{
+header ul li{
     padding: 1rem;
-   
     border: 1px solid;
     color: white;
     font-size: 1.5rem;
@@ -30,26 +31,15 @@ li{
 
 .container{
     display: flex;
-}
-.header{
    
-    text-align: center;
-    background-color: blueviolet;
-   flex-wrap: wrap;
-    height: 3rem;
-  
-}
-.header p{
-    font-weight: bold;
-    font-size: 1.5rem;
-    
 }
 
 .aside{
     display: flex;
    flex-wrap: wrap;
-    
+    height: 80vh;
     font-size: 1.5rem;
+   
 }
 
 .aside1{
@@ -63,7 +53,6 @@ li{
     background-color: aqua;
     flex: 5;
     font-weight: bold;
-    
     text-align: center;
 
 }
@@ -79,6 +68,8 @@ footer{
     text-align: center;
     flex-wrap: wrap;
     height: 3rem;font-weight: bold;font-size: 1.5rem;
+    /* /* position: fixed;
+   width: 100%; */
 }
 
 @media all and (max-width:800px){
@@ -92,10 +83,6 @@ footer{
         flex-wrap: wrap;
     }
 
-    .header{
-        flex-wrap: wrap;
-        order: 1;
-    }
     .middle{
         flex-wrap: wrap;
         order: 2;
